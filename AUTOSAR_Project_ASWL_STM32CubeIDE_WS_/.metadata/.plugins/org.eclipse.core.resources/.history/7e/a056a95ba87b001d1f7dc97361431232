@@ -1,0 +1,16 @@
+/*
+ * DoorLock_indication_SWC.c
+ *
+ *  Created on: Dec 14, 2022
+ *      Author: future
+ */
+
+#include"RTE_gen/Rte_DoorLock_indication_SWC.h"
+
+void DoorLock_indication_runnable(void)
+{
+	unsigned char DoorState = 0;
+	DoorState = Rte_IRead_DoorLock_indication_SWC_DoorLock_indication_RP_SR_DoorState_DoorState();
+
+}
+

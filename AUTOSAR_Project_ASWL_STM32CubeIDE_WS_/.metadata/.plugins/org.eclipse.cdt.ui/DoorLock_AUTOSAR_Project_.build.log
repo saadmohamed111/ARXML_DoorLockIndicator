@@ -1,0 +1,16 @@
+17:27:05 **** Incremental Build of configuration Debug for project DoorLock_AUTOSAR_Project_ ****
+make -j12 all 
+arm-none-eabi-gcc  -gdwarf-2 -o "DoorLock_AUTOSAR_Project_.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\1_Graduation_Project\AUTOSAR_Learn_In_Depth\Projects\AUTOSAR_Project_ASWL_STM32CubeIDE_WS_\DoorLock_AUTOSAR_Project_\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DoorLock_AUTOSAR_Project_.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DoorLock_AUTOSAR_Project_.elf
+ 
+arm-none-eabi-size   DoorLock_AUTOSAR_Project_.elf 
+arm-none-eabi-objdump -h -S  DoorLock_AUTOSAR_Project_.elf  > "DoorLock_AUTOSAR_Project_.list"
+   text	   data	    bss	    dec	    hex	filename
+   3160	      8	   1720	   4888	   1318	DoorLock_AUTOSAR_Project_.elf
+Finished building: default.size.stdout
+ 
+Finished building: DoorLock_AUTOSAR_Project_.list
+ 
+
+17:27:06 Build Finished. 0 errors, 0 warnings. (took 806ms)
+

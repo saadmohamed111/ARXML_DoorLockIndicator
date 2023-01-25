@@ -1,0 +1,307 @@
+!SESSION 2022-12-10 16:51:12.555 -----------------------------------------------
+eclipse.buildId=Version 1.11.0
+java.version=11.0.16
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-12-10 16:51:29.211
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-12-10 16:51:29.293
+!MESSAGE Log4j initialized with config file E:\1_Graduation_Project\AUTOSAR_Learn_In_Depth\Projects\AUTOSAR_Project_ASWL_STM32CubeIDE_WS_\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-12-10 16:51:31.962
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-12-10 16:53:07.640
+!MESSAGE Indexed 'DoorLock_AUTOSAR_Project_' (12 sources, 63 headers) in 1.08 sec: 2,524 declarations; 6,363 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.022%)
+
+!ENTRY org.eclipse.core.resources 4 77 2022-12-10 16:54:45.533
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-12-10 16:54:45.533
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-12-10 16:54:45.533
+!MESSAGE E:\1_Graduation_Project\AUTOSAR_Learn_In_Depth\Projects\AUTOSAR_Project_ASWL_STM32CubeIDE_WS_\DoorLock_AUTOSAR_Project_ overlaps the location of another project: 'DoorLock_AUTOSAR_Project_'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-12-10 16:54:45.534
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-12-10 16:56:13.743
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-12-10 16:56:13.743
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-12-10 16:56:13.743
+!MESSAGE E:\1_Graduation_Project\AUTOSAR_Learn_In_Depth\Projects\AUTOSAR_Project_ASWL_STM32CubeIDE_WS_\DoorLock_AUTOSAR_Project_ overlaps the location of another project: 'DoorLock_AUTOSAR_Project_'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-12-10 16:56:13.743
+!MESSAGE Project is null
+!SESSION 2022-12-14 13:33:09.723 -----------------------------------------------
+eclipse.buildId=Version 1.11.0
+java.version=11.0.16
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-12-14 13:33:29.282
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-12-14 13:33:29.463
+!MESSAGE Log4j initialized with config file E:\1_Graduation_Project\AUTOSAR_Learn_In_Depth\Projects\AUTOSAR_Project_ASWL_STM32CubeIDE_WS_\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-12-14 13:33:36.380
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.ui 4 0 2022-12-14 13:58:15.569
+!MESSAGE Error in CDT UI during reconcile
+!STACK 1
+C Model Exception: C Model Status [Element DoorLock_indication_SWC.c does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:485)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.makeConsistent(TranslationUnit.java:583)
+	at org.eclipse.cdt.internal.core.model.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:65)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:346)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:613)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:641)
+	at org.eclipse.cdt.internal.core.model.WorkingCopy.reconcile(WorkingCopy.java:365)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:79)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:64)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:89)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:90)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:346)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2022-12-14 13:58:15.570
+!MESSAGE Element DoorLock_indication_SWC.c does not exist.
+!SESSION 2022-12-14 14:18:16.333 -----------------------------------------------
+eclipse.buildId=Version 1.11.0
+java.version=11.0.16
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-12-14 14:18:20.465
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-12-14 14:18:23.590
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-12-14 14:18:23.651
+!MESSAGE Log4j initialized with config file E:\1_Graduation_Project\AUTOSAR_Learn_In_Depth\Projects\AUTOSAR_Project_ASWL_STM32CubeIDE_WS_\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-12-14 14:18:29.392
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2022-12-14 14:19:09.125 -----------------------------------------------
+eclipse.buildId=Version 1.11.0
+java.version=11.0.16
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-12-14 14:19:12.754
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-12-14 14:19:16.522
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-12-14 14:19:16.623
+!MESSAGE Log4j initialized with config file E:\1_Graduation_Project\AUTOSAR_Learn_In_Depth\Projects\AUTOSAR_Project_ASWL_STM32CubeIDE_WS_\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-12-14 14:19:23.450
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2022-12-14 14:20:16.114 -----------------------------------------------
+eclipse.buildId=Version 1.11.0
+java.version=11.0.16
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-12-14 14:20:19.658
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-12-14 14:20:22.273
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-12-14 14:20:22.327
+!MESSAGE Log4j initialized with config file E:\1_Graduation_Project\AUTOSAR_Learn_In_Depth\Projects\AUTOSAR_Project_ASWL_STM32CubeIDE_WS_\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-12-14 14:20:28.838
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2022-12-14 15:03:23.216 -----------------------------------------------
+eclipse.buildId=Version 1.11.0
+java.version=11.0.16
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-12-14 15:03:29.860
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-12-14 15:03:32.462
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-12-14 15:03:32.519
+!MESSAGE Log4j initialized with config file E:\1_Graduation_Project\AUTOSAR_Learn_In_Depth\Projects\AUTOSAR_Project_ASWL_STM32CubeIDE_WS_\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-12-14 15:03:39.350
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2022-12-14 15:18:07.169 -----------------------------------------------
+eclipse.buildId=Version 1.11.0
+java.version=11.0.16
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-12-14 15:18:10.992
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-12-14 15:18:14.692
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-12-14 15:18:14.776
+!MESSAGE Log4j initialized with config file E:\1_Graduation_Project\AUTOSAR_Learn_In_Depth\Projects\AUTOSAR_Project_ASWL_STM32CubeIDE_WS_\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-12-14 15:18:22.098
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.core.resources 4 77 2022-12-14 15:37:10.411
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-12-14 15:37:10.411
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-12-14 15:37:10.411
+!MESSAGE E:\1_Graduation_Project\AUTOSAR_Learn_In_Depth\Projects\AUTOSAR_Project_ASWL_STM32CubeIDE_WS_\DoorLock_AUTOSAR_Project_ overlaps the location of another project: 'DoorLock_AUTOSAR_Project_'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-12-14 15:37:10.412
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-12-14 15:38:51.564
+!MESSAGE Indexed 'DoorLock_AUTOSAR_Project_' (17 sources, 79 headers) in 0.579 sec: 2,991 declarations; 6,866 references; 0 unresolved inclusions; 1 syntax errors; 5 unresolved names (0.051%)
+
+!ENTRY org.eclipse.core.resources 4 77 2022-12-14 15:39:47.352
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-12-14 15:39:47.352
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-12-14 15:39:47.352
+!MESSAGE E:\1_Graduation_Project\AUTOSAR_Learn_In_Depth\Projects\AUTOSAR_Project_ASWL_STM32CubeIDE_WS_\DoorLock_AUTOSAR_Project_ overlaps the location of another project: 'DoorLock_AUTOSAR_Project_'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-12-14 15:39:47.352
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-12-14 15:41:25.331
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-12-14 15:41:25.331
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-12-14 15:41:25.331
+!MESSAGE E:\1_Graduation_Project\AUTOSAR_Learn_In_Depth\Projects\AUTOSAR_Project_ASWL_STM32CubeIDE_WS_\DoorLock_AUTOSAR_Project_ overlaps the location of another project: 'DoorLock_AUTOSAR_Project_'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-12-14 15:41:25.332
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-12-14 15:42:14.149
+!MESSAGE Indexed 'DoorLock_AUTOSAR_Project_' (17 sources, 79 headers) in 0.501 sec: 2,991 declarations; 6,866 references; 0 unresolved inclusions; 1 syntax errors; 5 unresolved names (0.051%)
+
+!ENTRY org.eclipse.core.resources 4 77 2022-12-14 15:43:21.780
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-12-14 15:43:21.780
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-12-14 15:43:21.780
+!MESSAGE E:\1_Graduation_Project\AUTOSAR_Learn_In_Depth\Projects\AUTOSAR_Project_ASWL_STM32CubeIDE_WS_\DoorLock_AUTOSAR_Project_ overlaps the location of another project: 'DoorLock_AUTOSAR_Project_'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-12-14 15:43:21.781
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-12-14 15:43:35.300
+!MESSAGE Indexed 'DoorLock_AUTOSAR_Project_' (17 sources, 79 headers) in 0.322 sec: 2,991 declarations; 6,866 references; 0 unresolved inclusions; 1 syntax errors; 5 unresolved names (0.051%)
+!SESSION 2022-12-14 15:47:40.027 -----------------------------------------------
+eclipse.buildId=Version 1.11.0
+java.version=11.0.16
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-12-14 15:47:46.969
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-12-14 15:47:47.062
+!MESSAGE Log4j initialized with config file E:\1_Graduation_Project\AUTOSAR_Learn_In_Depth\Projects\AUTOSAR_Project_ASWL_STM32CubeIDE_WS_\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-12-14 15:47:54.035
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.core.resources 4 77 2022-12-14 15:48:14.479
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-12-14 15:48:14.479
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-12-14 15:48:14.479
+!MESSAGE E:\1_Graduation_Project\AUTOSAR_Learn_In_Depth\Projects\AUTOSAR_Project_ASWL_STM32CubeIDE_WS_\DoorLock_AUTOSAR_Project_ overlaps the location of another project: 'DoorLock_AUTOSAR_Project_'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-12-14 15:48:14.480
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-12-14 15:49:56.654
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-12-14 15:49:56.654
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-12-14 15:49:56.654
+!MESSAGE E:\1_Graduation_Project\AUTOSAR_Learn_In_Depth\Projects\AUTOSAR_Project_ASWL_STM32CubeIDE_WS_\DoorLock_AUTOSAR_Project_ overlaps the location of another project: 'DoorLock_AUTOSAR_Project_'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-12-14 15:49:56.654
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-12-14 15:50:27.752
+!MESSAGE Indexed 'DoorLock_AUTOSAR_Project_' (17 sources, 79 headers) in 0.83 sec: 2,991 declarations; 6,867 references; 0 unresolved inclusions; 1 syntax errors; 4 unresolved names (0.041%)
+
+!ENTRY org.eclipse.core.resources 4 77 2022-12-14 15:51:28.092
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-12-14 15:51:28.092
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-12-14 15:51:28.092
+!MESSAGE E:\1_Graduation_Project\AUTOSAR_Learn_In_Depth\Projects\AUTOSAR_Project_ASWL_STM32CubeIDE_WS_\DoorLock_AUTOSAR_Project_ overlaps the location of another project: 'DoorLock_AUTOSAR_Project_'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-12-14 15:51:28.093
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-12-14 15:52:54.783
+!MESSAGE Indexed 'DoorLock_AUTOSAR_Project_' (17 sources, 79 headers) in 0.382 sec: 2,991 declarations; 6,867 references; 0 unresolved inclusions; 1 syntax errors; 4 unresolved names (0.041%)
+
+!ENTRY org.eclipse.core.resources 4 77 2022-12-14 15:53:03.697
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-12-14 15:53:03.697
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-12-14 15:53:03.697
+!MESSAGE E:\1_Graduation_Project\AUTOSAR_Learn_In_Depth\Projects\AUTOSAR_Project_ASWL_STM32CubeIDE_WS_\DoorLock_AUTOSAR_Project_ overlaps the location of another project: 'DoorLock_AUTOSAR_Project_'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-12-14 15:53:03.697
+!MESSAGE Project is null
+!SESSION 2022-12-14 16:18:57.749 -----------------------------------------------
+eclipse.buildId=Version 1.11.0
+java.version=11.0.16
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-12-14 16:19:01.070
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-12-14 16:19:03.714
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-12-14 16:19:03.779
+!MESSAGE Log4j initialized with config file E:\1_Graduation_Project\AUTOSAR_Learn_In_Depth\Projects\AUTOSAR_Project_ASWL_STM32CubeIDE_WS_\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-12-14 16:19:10.956
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2022-12-15 00:35:22.843 -----------------------------------------------
+eclipse.buildId=Version 1.11.0
+java.version=11.0.16
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-12-15 00:36:29.074
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-12-15 00:36:29.330
+!MESSAGE Log4j initialized with config file E:\1_Graduation_Project\AUTOSAR_Learn_In_Depth\Projects\AUTOSAR_Project_ASWL_STM32CubeIDE_WS_\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-12-15 00:36:43.732
+!MESSAGE Started RMI Server, listening on port 41337

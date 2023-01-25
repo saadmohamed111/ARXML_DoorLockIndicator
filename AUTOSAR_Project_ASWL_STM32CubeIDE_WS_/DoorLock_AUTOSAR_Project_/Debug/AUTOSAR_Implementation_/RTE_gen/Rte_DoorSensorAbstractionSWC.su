@@ -1,0 +1,2 @@
+../AUTOSAR_Implementation_/RTE_gen/Rte_DoorSensorAbstractionSWC.c:23:6:Rte_IWrite_DoorSensorAbstractionSWC_ReadDoorSensor_PP_SR_DoorState	16	static
+../AUTOSAR_Implementation_/RTE_gen/Rte_DoorSensorAbstractionSWC.c:27:8:Rte_IWriteRef_DoorSensorAbstractionSWC_ReadDoorSensor_PP_SR_DoorState	4	static

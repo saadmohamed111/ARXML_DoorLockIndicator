@@ -1,0 +1,2 @@
+../AUTOSAR_Implementation_/MCAL/DIO.c:3:15:Dio_ReadChannel	16	static
+../AUTOSAR_Implementation_/MCAL/DIO.c:10:15:Dio_WriteChannel	16	static

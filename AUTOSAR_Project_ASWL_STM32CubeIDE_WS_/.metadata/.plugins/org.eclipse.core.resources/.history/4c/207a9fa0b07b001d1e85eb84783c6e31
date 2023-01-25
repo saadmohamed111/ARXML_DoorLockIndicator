@@ -1,0 +1,42 @@
+/*
+ * DoorSensorAbstractionSWC.c
+ *
+ *  Created on: Dec 14, 2022
+ *      Author: future
+ */
+
+
+#include "RTE_gen/Rte_DoorSensorAbstractionSWC.h"
+
+#define LEDON  0
+#define LEDOFF 1
+/*****************************************************
+ * Port: 		PP_CS_LEDSwitch
+ * Interface:	IF_CS_LED
+ * Operation:	Led_Switch
+ *****************************************************/
+Std_ReturnType Led_Switch_runnable(uint8 LedState)
+{
+	uint8 DoorState = 0;
+	if(LedState == LEDON || LedState == LEDOFF)
+	{
+		DoorState = Dio_ReadChannel(LED_ID)
+		return RTE_E_IF_CS_LED_E_OK;
+	}
+	else
+	{
+		return RTE_E_IF_CS_LED_E_NOT_OK;
+	}
+}
+
+/*****************************************************
+ * Runnable: 	ReadDoorSensor
+ * Period:		0.01
+ *****************************************************/
+void ReadDoorSensor_runnable(void)
+{
+
+}
+
+
+
